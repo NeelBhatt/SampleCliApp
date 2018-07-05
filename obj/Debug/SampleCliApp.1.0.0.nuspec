@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SampleCliApp</id>
+    <version>1.0.0</version>
+    <authors>Neel</authors>
+    <owners>Neel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.AspNetCore.App" version="2.1.0-preview1-final" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="2.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp2.1/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/css/site.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/images/banner1.svg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/images/banner2.svg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/images/banner3.svg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/images/banner4.svg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/js/site.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/js/site.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/dist/js/npm.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/bootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/dist/additional-methods.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery-validation/LICENSE.md" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery/dist/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery/dist/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery/dist/jquery.min.map" buildAction="Content" />
+      <files include="any/netcoreapp2.1/wwwroot/lib/jquery/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp2.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/bundleconfig.json" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.runtimeconfig.json" target="lib\netcoreapp2.1\SampleCliApp.runtimeconfig.json" />
+    <file src="C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.dll" target="lib\netcoreapp2.1\SampleCliApp.dll" />
+    <file src="C:\dev\SampleCliApp\wwwroot\css\site.css" target="content\wwwroot\css\site.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\css\site.css" target="contentFiles\any\netcoreapp2.1\wwwroot\css\site.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\css\site.min.css" target="content\wwwroot\css\site.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\css\site.min.css" target="contentFiles\any\netcoreapp2.1\wwwroot\css\site.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\favicon.ico" target="content\wwwroot\favicon.ico" />
+    <file src="C:\dev\SampleCliApp\wwwroot\favicon.ico" target="contentFiles\any\netcoreapp2.1\wwwroot\favicon.ico" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner1.svg" target="content\wwwroot\images\banner1.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner1.svg" target="contentFiles\any\netcoreapp2.1\wwwroot\images\banner1.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner2.svg" target="content\wwwroot\images\banner2.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner2.svg" target="contentFiles\any\netcoreapp2.1\wwwroot\images\banner2.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner3.svg" target="content\wwwroot\images\banner3.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner3.svg" target="contentFiles\any\netcoreapp2.1\wwwroot\images\banner3.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner4.svg" target="content\wwwroot\images\banner4.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\images\banner4.svg" target="contentFiles\any\netcoreapp2.1\wwwroot\images\banner4.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\js\site.js" target="content\wwwroot\js\site.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\js\site.js" target="contentFiles\any\netcoreapp2.1\wwwroot\js\site.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\js\site.min.js" target="content\wwwroot\js\site.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\js\site.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\js\site.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\.bower.json" target="content\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\.bower.json" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\npm.js" target="content\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\dist\js\npm.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\LICENSE" target="content\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\bootstrap\LICENSE" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="content\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\.bower.json" target="content\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\.bower.json" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\LICENSE.md" target="content\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery-validation\LICENSE.md" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\.bower.json" target="content\wwwroot\lib\jquery\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\.bower.json" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery\.bower.json" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.js" target="content\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.min.js" target="content\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.min.js" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.min.map" target="content\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\dist\jquery.min.map" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\LICENSE.txt" target="content\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="C:\dev\SampleCliApp\wwwroot\lib\jquery\LICENSE.txt" target="contentFiles\any\netcoreapp2.1\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="C:\dev\SampleCliApp\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\dev\SampleCliApp\appsettings.Development.json" target="contentFiles\any\netcoreapp2.1\appsettings.Development.json" />
+    <file src="C:\dev\SampleCliApp\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\dev\SampleCliApp\appsettings.json" target="contentFiles\any\netcoreapp2.1\appsettings.json" />
+    <file src="C:\dev\SampleCliApp\bundleconfig.json" target="content\bundleconfig.json" />
+    <file src="C:\dev\SampleCliApp\bundleconfig.json" target="contentFiles\any\netcoreapp2.1\bundleconfig.json" />
+    <file src="C:\dev\SampleCliApp\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="C:\dev\SampleCliApp\Properties\launchSettings.json" target="contentFiles\any\netcoreapp2.1\Properties\launchSettings.json" />
+  </files>
+</package>

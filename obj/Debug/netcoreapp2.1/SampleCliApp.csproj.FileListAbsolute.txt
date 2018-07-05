@@ -1,0 +1,12 @@
+C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.deps.json
+C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.runtimeconfig.json
+C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.runtimeconfig.dev.json
+C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.dll
+C:\dev\SampleCliApp\bin\Debug\netcoreapp2.1\SampleCliApp.pdb
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.RazorCoreGenerate.cache
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.csproj.CoreCompileInputs.cache
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.AssemblyInfoInputs.cache
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.AssemblyInfo.cs
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.dll
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.pdb
+C:\dev\SampleCliApp\obj\Debug\netcoreapp2.1\SampleCliApp.csprojResolveAssemblyReference.cache
