@@ -6,7 +6,7 @@ dotnet = 'path\\to\\dotnet.exe'
 stages {
 stage ('Checkout') {
             steps {
-                 git credentialsId: 'userId', url: 'https://globalrepository.mclocal.int/stash/scm/mpms/mahi_new.git',branch: 'master'
+                 git credentialsId: 'userId', url: 'https://github.com/NeelBhatt/SampleCliApp',branch: 'master'
             }
 }
 stage ('Restore PACKAGES') {     
